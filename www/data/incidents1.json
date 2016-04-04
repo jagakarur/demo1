@@ -1,0 +1,38 @@
+[
+  {
+    "incidentID" : "1",
+    "incidentName" : "ATM Skimming Event",
+    "incidentDesc" : "Incident1",
+    "incidentStartDate" : "12/16/2015 9:30 AM",
+    "incidentEndDate" : "12/18/2015 9:10 AM",
+    "incidentType" : "None",
+    "incidentPriority" : "Green",
+    "latitude" :"29.424122",
+    "longitude" : "	-98.493629",
+    "locationName" : "San Antonio"
+  },
+  {
+    "incidentID" : "2",
+    "incidentName" : "Tornado Warning",
+    "incidentDesc" : "Incident2",
+    "incidentStartDate" : "10/11/2015 10:30 PM",
+    "incidentEndDate" : "10/15/2015 9:30 AM",
+    "incidentType" : "OPREP",
+    "incidentPriority" : "Green",
+    "latitude" :"36.778259",
+    "longitude" : "-119.417931",
+    "locationName" : "California"
+  },
+  {
+    "incidentID" : "3",
+    "incidentName" : "Lightining Notification",
+    "incidentDesc" : "Incident3",
+    "incidentStartDate" : "08/20/2014 11:30 AM",
+    "incidentEndDate" : "08/22/2014 9:30 PM",
+    "incidentType" : "INREP",
+    "incidentPriority" : "Green",
+    "latitude" :"40.72332346",
+    "longitude" : "-74.00115967",
+    "locationName" : "New York"
+  }
+]

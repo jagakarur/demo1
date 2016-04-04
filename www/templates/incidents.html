@@ -1,0 +1,17 @@
+<ion-view view-title="Incidents">
+  <ion-content scroll="true">
+    <ion-list>
+      <ion-item ng-repeat="incident in incidents" href="#/app/incidents/{{incidentID}}" class="item-thumbnail">
+        
+
+   <!-- <img ng-src="{{item.img}}">-->
+    <h2>{{incident.incidentName}}</h2>
+    <p>Incident Date: {{incident.incidentStartDate}} </p>
+
+   <p> <ng-map zoom="11" center="[{{incident.locationName}}]">
+    <marker position="[{{incident.latitude}}, {{incident.longitude}}]" title="{{incident.incidentName}}"></marker>   
+  </ng-map></p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
