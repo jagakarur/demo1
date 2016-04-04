@@ -43,7 +43,7 @@ $scope.showPopup = function() {
 
   // An elaborate, custom popup
   var myPopup = $ionicPopup.show({
-    template: '<input type="text">',
+    template: '<textarea style="width:100%"></textarea>',
     title: 'Feedback',
     subTitle: 'Please Enter Your Feedback',
     scope: $scope,
@@ -220,7 +220,7 @@ google.maps.event.addListenerOnce($scope.map, 'idle', function(){
       position: latLng
   });      
  var infoWindow = new google.maps.InfoWindow({
-      content: "Here I am!"
+      content: "Here!"
   });
  
   google.maps.event.addListener(marker, 'click', function () {
